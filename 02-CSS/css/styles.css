@@ -49,7 +49,7 @@ h2 {
 
 /* Hex */
 .hex {
-    color: #707; /*Se os dois valores de uma mesma cor se repetir (rgb), ex: #770077, dá pra simplificar em um número por cor, ex: #707*/
+    color: #707; /* Se os dois valores de uma mesma cor se repetir, ex: #770077, dá pra simplificar em um número por cor, ex: #707 */
 }
 
 /* RGB */
