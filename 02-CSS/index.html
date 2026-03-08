@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- 3 CSS interno -->
+    <style>
+        p {
+            color: gold;
+        }
+    </style>
+
+    <!-- 4 CSS Externo -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- 6 Múltiplos CSS -->
+    <link rel="stylesheet" href="css/lists.css">
+</head>
+<body>
+    <!-- 1 Inline CSS -->
+    <h1 style="color: crimson;">Esse é o CSS inline</h1>
+
+    <!-- 2 Múltiplas regras -->
+    <h1 style="color:crimson; font-size: 60px; border-bottom: 5px solid red; border-top: 5px solid red; border-left: 5px solid red; border-right: 5px solid red;">Esse é o CSS com múltiplas regras</h1>
+
+    <!-- 3 CSS interno -->
+    <p>Eu fui estilizado pelo CSS interno</p>
+    <p>Mais um</p>
+    <p>Eu de novo aqui</p>
+
+    <!-- 4 CSS Externo -->
+    <h3>CSS Externo</h3>
+
+    <!-- 5 Ordem do CSS -->
+    <p style="color: cornflowerblue">Parágrafo sobrepondo o CSS interno</p>
+
+    <!-- 6 Múltiplos CSS -->
+    <ul>
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Abacate</li>
+    </ul>
+
+    <!-- 7 Classes -->
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto</p>
+
+    <!-- 8 ID -->
+    <h1 id="exclusive-title">Este é um título com ID</h1>
+
+    <!-- 9 Múltiplas regras, ordem do CSS -->
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 2</h2>
+    <h2>Algum texto 3</h2>
+
+    <!-- 10 Nome de cor -->
+    <p class="color-name">Qualquer texto para nome de cores</p>
+
+    <!-- 11 Cor em Hex -->
+    <p class="hex">Qualquer texto para cores em Hex</p>
+
+    <!-- 12 Cor em RGB -->
+    <p class="rgb">Qualquer texto para cores em RGB</p>
+</body>
+</html>

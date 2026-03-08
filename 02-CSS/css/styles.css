@@ -1,0 +1,58 @@
+/* 4 CSS Externo */
+body {
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    background-size: cover;
+    display: inline-block;
+    padding: 3px;
+    background-color: cadetblue;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* Classes */
+.paragraph {
+    background-color: rgb(54, 37, 163);
+    color: rgb(255, 0, 200);
+    padding: 5px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* IDs */
+#exclusive-title {
+    background-color: blue;
+    color: rgb(230, 8, 242);
+    display: inline-block;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+/* Ordem das regras */
+h2 {
+    border-bottom: 3px solid blue;
+}
+.titulo {
+    border-bottom: 3px solid yellow;
+}
+#algum-titulo {
+    border-bottom:3px solid green;
+}
+
+/* Nome de cores */
+.color-name { 
+    color:crimson;
+}
+
+/* Hex */
+.hex {
+    color: #707; /*Se os dois valores de uma mesma cor se repetir (rgb), ex: #770077, dá pra simplificar em um número por cor, ex: #707*/
+}
+
+/* RGB */
+.rgb {
+    color: rgb(60, 0, 130);
+}
