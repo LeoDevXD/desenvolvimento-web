@@ -1,0 +1,41 @@
+html {
+    background-color: #c16161;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .6);
+    margin: 50px auto;
+    padding: 10px 30px;
+    max-width: 90vw;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: rgb(199, 36, 14);
+}
+
+.header p {
+    color: rgb(198, 71, 54);
+    font-size: 20px;
+}
+
+.second-img img {
+    border-radius: 10px;
+    display: inline;
+}
+
+.second-img {
+    color: rgb(198, 71, 54);
+    display: inline;
+}
+
+.more-info a{
+    text-decoration: none;
+    color:  rgb(199, 36, 14);
+    border-left: 1px solid rgb(198, 71, 54);
+    padding-left: 5px;
+}
